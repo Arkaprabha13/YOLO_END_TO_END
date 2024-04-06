@@ -3,8 +3,7 @@ import shutil
 from YOLO_ENT_TO_END.logger import logging
 from YOLO_ENT_TO_END.exception import AppException
 from YOLO_ENT_TO_END.entity.config_entity import DataValidationConfig
-from YOLO_ENT_TO_END.entity.artifacts_entity import (DataIngestionArtifact,
-                                                 DataValidationArtifact)
+from YOLO_ENT_TO_END.entity.artifacts_entity import (DataIngestionArtifact,DataValidationArtifact)
 
 
 

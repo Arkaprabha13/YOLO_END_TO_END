@@ -6,7 +6,7 @@ from YOLO_ENT_TO_END.exception import AppException
 from YOLO_ENT_TO_END.entity.artifacts_entity import (DataIngestionArtifact,DataValidationArtifact,ModelTrainerArtifact)
 from YOLO_ENT_TO_END.components.data_ingestion import DataIngestion
 from YOLO_ENT_TO_END.components.data_validation import DataValidation
-from YOLO_ENT_TO_END.components import ModelTrainer
+from YOLO_ENT_TO_END.components import model_trainer
 
 class TrainPipeline:
     def __init__(self):
